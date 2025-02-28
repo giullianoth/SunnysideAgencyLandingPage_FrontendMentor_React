@@ -3,7 +3,7 @@
 import Header from "./components/page/Header"
 import Headline from "./components/page/Headline"
 import Presentation from "./components/page/Presentation"
-// import Services from "./components/page/Services"
+import Services from "./components/page/Services"
 // import Testimonials from "./components/page/Testimonials"
 
 function App() {
@@ -13,8 +13,8 @@ function App() {
       <main>
         <Headline />
         <Presentation />
-        {/* <Services />
-        <Testimonials />
+        <Services />
+        {/* <Testimonials />
         <Gallery /> */}
       </main>
       {/* <Footer /> */}

@@ -1,0 +1,35 @@
+.testimonial {
+    flex-basis: 100%;
+    padding-inline: 20px;
+    text-align: center;
+
+    @media(min-width: 900px) {
+        flex-basis: calc((100% / 3) - 20px);
+        max-width: 460px;
+    }
+}
+
+.testimonial__avatar {
+    margin-bottom: 40px;
+
+    img {
+        margin-inline: auto;
+        width: 80px;
+        border-radius: 50%;
+    }
+}
+
+.testimonial__text {
+    font-size: 1.1em;
+    margin-bottom: 40px;
+}
+
+.testimonial__name {
+    font-size: 0.8em;
+    margin-bottom: 10px;
+}
+
+.testimonial__role {
+    font-size: 0.8em;
+    color: var(--color-grayish-blue);
+}

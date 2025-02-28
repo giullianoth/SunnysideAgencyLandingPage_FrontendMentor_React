@@ -1,0 +1,30 @@
+.mainMenu {
+    display: flex;
+    justify-content: center;
+    column-gap: 40px;
+    text-align: center;
+
+    @media(min-width: 900px) {
+        align-items: center;
+    }
+}
+
+.mainMenu__button {
+    font-family: var(--font-fraunces);
+    color: var(--color-very-dark-desatured-blue) !important;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    display: inline-block;
+    padding: 20px 30px;
+    background-color: var(--color-yellow);
+    border-radius: 30px;
+
+    @media(min-width: 900px) {
+        background-color: var(--color-white);
+    }
+
+    &:hover {
+        background-color: var(--color-blue-hover);
+        color: var(--color-white) !important;
+    }
+}

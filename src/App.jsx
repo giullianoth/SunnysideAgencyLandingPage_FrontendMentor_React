@@ -1,4 +1,4 @@
-// import Footer from "./components/page/Footer"
+import Footer from "./components/page/Footer"
 import Gallery from "./components/page/Gallery"
 import Header from "./components/page/Header"
 import Headline from "./components/page/Headline"
@@ -17,7 +17,7 @@ function App() {
         <Testimonials />
         <Gallery />
       </main>
-      {/* <Footer /> */}
+      <Footer />
     </>
   )
 }

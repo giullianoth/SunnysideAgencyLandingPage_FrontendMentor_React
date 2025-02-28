@@ -1,0 +1,17 @@
+.galleryPhoto {
+    flex-basis: 50%;
+    opacity: 0.8;
+    transition: var(--transition-properties);
+
+    @media(max-width: 340px) {
+        flex-basis: 100%;
+    }
+
+    @media(min-width: 768px) {
+        flex-basis: 25%;
+    }
+
+    &:hover {
+        opacity: 1;
+    }
+}
